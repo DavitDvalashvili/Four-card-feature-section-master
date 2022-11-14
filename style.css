@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&family=Poppins:ital,wght@0,275;0,200;0,400;0,500;0,700;0,800;0,900;1,300&display=swap');
+:root {
+    --cyan: #44D3D2;
+    --red: #EA5454;
+    --yellow: #FCAE4A;
+    --blue: #549EF2;
+    --gray: #4D4F62;
+}
+/* general styling */
+html {
+    font-style: normal;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+.card p, .card h3, header h1, header h2, header p {
+    color: var(--gray);
+}
+
+
+/* styling of header and it's elements */
+header {
+    text-align: center;
+    margin: 8.5rem auto 7.6rem auto;
+    max-width: 42.5rem;
+}
+header h1 {
+    font-weight: 275;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.016666rem;
+}
+header h2 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    text-align: center;
+    letter-spacing: 0.0166667rem;
+    margin: 0.2rem auto 1.3rem auto;
+}
+header p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.104167px;
+    max-width: 31.1rem;
+    margin: 0 auto;
+}
+
+/* styling of main and it's elements */
+main {
+    justify-content: center;
+    margin-bottom: 5.3rem;
+}
+.card {
+    width: 100%;
+    max-width: 31.1rem;
+    height: 22.2rem;
+    margin: 0 auto 2.5rem auto;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    border-top: 0.355rem solid;
+}
+.supervisor {
+    border-top-color: var(--cyan);
+}
+.team-builder {
+    border-top-color: var(--red);
+}
+.karma {
+    border-top-color: var(--yellow);
+}
+.calculator {
+    border-top-color: var(--red);
+}
+.card h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 2.7rem 0 0.5rem 2.8rem;
+}
+.card p {
+    padding: 0 2.9rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.00902778rem;
+}
+.card img {
+    margin: 2.5rem 2.8rem 0 0;
+    float: right;
+}
+
